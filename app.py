@@ -11,7 +11,7 @@ import numpy as np
 st.title("FACEBOOK ADD SIMILARITY SEARCH")
 st.write("----------------------------------------------------")
 def get_data():
-	return pd.read_csv('Faiss.csv')
+	return pd.read_csv('faiss.csv')
 
 n=1
 df=get_data()
